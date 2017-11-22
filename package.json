@@ -62,7 +62,6 @@
     "start": "chmod +x bin/slackin && ./bin/slackin"
   },
   "now": {
-    "alias":"slackin-developers-italia",
     "type": "npm",
     "files": [
       "bin",
