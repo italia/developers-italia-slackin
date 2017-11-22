@@ -59,7 +59,7 @@ body {
 .header-titleLink a small {
     display: none;
     font-weight: 400!important;
-    font-size: 1.8rem!important;
+    font-size: 1.5rem!important;
     letter-spacing: .01em!important;
 }
 @media (min-width: 32rem) {
@@ -100,4 +100,9 @@ body {
         border-radius: 2px;
         box-shadow: 1px 1px 80px 1px rgba(0,0,0,.35)!important;
     }
+}
+
+/* Capthcha */
+.g-recaptcha {
+    display: inline-block;
 }
