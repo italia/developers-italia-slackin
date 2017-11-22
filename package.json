@@ -1,5 +1,5 @@
 {
-  "name": "slackin",
+  "name": "slackin-developers-italia",
   "version": "0.14.0",
   "description": "Public Slack organizations made easy",
   "repository": "rauchg/slackin",
@@ -62,6 +62,7 @@
     "start": "chmod +x bin/slackin && ./bin/slackin"
   },
   "now": {
+    "alias":"slackin-developers-italia",
     "type": "npm",
     "files": [
       "bin",

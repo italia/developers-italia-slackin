@@ -1,0 +1,103 @@
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+}
+.u-background-white {
+    background-color: #FFF;
+}
+.u-background-50 {
+    background-color: #06c;
+}
+.u-position-relative {
+    position: relative;
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.header-logo img {
+    height: 6rem;
+    width: 6rem;
+}
+@media (min-width: 32rem) {
+    .header-logo img {
+        height: 9rem;
+        width: 9rem;
+    }
+}
+.header-title {
+    display: flex!important;
+    flex-basis: auto!important;
+    line-height: 1.2;
+    align-items: center!important;
+}
+.header-logo,
+.header-title {
+    flex-basis: auto;
+}
+.header-titleLink a {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+.header-titleLink a .beta {
+    font-size: 1.4rem!important;
+    padding-left: .4rem!important;
+    padding-right: .4rem!important;
+    color: #7db2e8!important;
+    vertical-align: middle!important;
+}
+.header-titleLink a small {
+    display: none;
+    font-weight: 400!important;
+    font-size: 1.8rem!important;
+    letter-spacing: .01em!important;
+}
+@media (min-width: 32rem) {
+    .header-titleLink a small {
+        display: inline;
+    }
+}
+/* Separator */
+.separator-room,
+.separator--up {
+    border: 0;
+}
+.separator {
+    height: 10rem;
+    left: 0;
+    margin: 0!important;
+    margin-bottom: -10rem!important;
+    margin-left: -1em;
+    top: -4rem;
+    width: 99.999999%;
+}
+.separator-room {
+    padding-bottom: 10rem;
+    margin: 0!important;
+}
+.separator--up {
+    transform: skewX(0) skewY(-2deg);
+}
+
+/* Splash */
+.splash {
+    top: -10rem !important;
+    padding: 6rem 2rem;
+}
+@media (min-width: 32rem) {
+    .splash {
+        width: 30rem;
+        border-radius: 2px;
+        box-shadow: 1px 1px 80px 1px rgba(0,0,0,.35)!important;
+    }
+}
