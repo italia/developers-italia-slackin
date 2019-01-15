@@ -22,7 +22,7 @@ Other platforms:
 - [Heroku](https://heroku.com/deploy?template=https://github.com/rauchg/slackin/tree/master)
 - [Azure](https://azuredeploy.net/)
 - [OpenShift](https://github.com/rauchg/slackin/wiki/OpenShift)
-- [IBM Bluemix](https://bluemix.net/deploy?repository=https://github.com/rauchg/slackin)
+- [IBM Cloud](https://bluemix.net/deploy?repository=https://github.com/rauchg/slackin)
 
 ### Tips
 
@@ -45,7 +45,7 @@ sitekey](https://www.google.com/recaptcha/admin) for Google reCAPTCHA.
 
 ```html
 <script async defer src="https://slack.yourdomain.com/slackin.js"></script>
-<!-- append "?" to the URL for the large version -->
+<!-- append "?large" to the URL for the large version -->
 ```
 
 #### SVG ([demo](https://cldup.com/jWUT4QFLnq.png))
