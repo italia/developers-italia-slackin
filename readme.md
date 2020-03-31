@@ -24,6 +24,30 @@ Other platforms:
 - [OpenShift](https://github.com/rauchg/slackin/wiki/OpenShift)
 - [IBM Cloud](https://bluemix.net/deploy?repository=https://github.com/rauchg/slackin)
 
+### Docker Support
+
+The repository has a [Dockerfile](Dockerfile), used to also build the production image, and a [docker-compose.yaml](docker-compose.yaml) file to facilitate the local deployment.
+
+The containers declared in the [docker-compose.yaml](docker-compose.yaml) file leverage some environment variables that should be declared in a *.env* file. A [.env.example](.env.example) file has some exemplar values. Before proceeding with the build, copy the [.env.example](.env.example) into *.env* and modify the environment variables as needed.
+
+Then, to build the container run:
+
+```shell
+docker-compose up [-d] [--build]
+```
+
+where:
+
+* *-d* execute the containers in background
+
+* *--build* forces the containers build
+
+To destroy the containers, use:
+
+```shell
+docker-compose down
+```
+
 ### Tips
 
 Your team id is what you use to access your login page on Slack (eg: https://**{this}**.slack.com).
