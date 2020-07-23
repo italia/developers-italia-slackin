@@ -1,3 +1,5 @@
+**WARNING:** This repository is outdated and it has been archived.
+
 ![](https://github.com/zeit/art/blob/e081cf46e6609b51ac485dcc337ac6644c0da5e7/slackin/repo-banner.png)
 
 ## Features
